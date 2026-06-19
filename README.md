@@ -105,9 +105,9 @@ Additional smoothing is applied using **wavelet denoising**.
 
 The ECG morphology is approximated as a **sum of Gaussian kernels**:
 
-\[
-ECG(\theta) = \sum_{i=1}^{L} a_i \exp\left(-\frac{(\theta-\theta_i)^2}{2b_i^2}\right)
-\]
+```math
+ECG(\theta) = \sum_{i=1}^{N} a_i \exp\left(-\frac{(\theta-\theta_i)^2}{2b_i^2}\right)
+```
 
 Where:
 
