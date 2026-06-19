@@ -113,7 +113,7 @@ Where:
 
 - \(a_i\) → amplitude  
 - \(b_i\) → width  
-- \( \theta_i \) → center (phase position)
+- \( theta_i\) → center (phase position)
 
 Parameters are estimated using **Particle Swarm Optimization (PSO)**.
 
